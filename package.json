@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "is-email": "^1.0.2",
+    "is-uuid": "^1.0.2",
+    "migrations": "^1.6.1",
+    "superstruct": "^1.0.3"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.17.1",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.17.1"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node app.js"
+  }
+}
